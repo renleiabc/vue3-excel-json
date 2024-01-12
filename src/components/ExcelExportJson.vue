@@ -62,7 +62,7 @@ export default {
   <div class="excel-box" :class="[size]">
     <label for="fileInput" class="input-label" title="select file">
       <div class="input-label-text">
-        <img src="/update.svg" alt="update" />
+        <img src="@/assets/update.svg" alt="update" />
         <div>
           <span>xlsx,xls</span>
         </div>
