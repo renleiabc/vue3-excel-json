@@ -1,7 +1,6 @@
 {
   "name": "vue3-excel-json",
-  "private": true,
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Based on Vue3 plugin, quickly implement the function of uploading Excel to JSON, importing JSON, and exporting Excel",
   "type": "module",
   "files": [
@@ -10,11 +9,18 @@
   ],
   "main": "./dist/vue3-excel-json.umd.js",
   "module": "./dist/vue3-excel-json.es.js",
+  "style": "./dist/style.css",
   "types": "./index.d.ts",
   "exports": {
-    "types": "./index.d.ts",
-    "import": "./dist/vue3-excel-json.es.js",
-    "require": "./dist/vue3-excel-json.umd.js"
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./dist/vue3-excel-json.es.js",
+      "require": "./dist/vue3-excel-json.umd.js"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
   },
   "scripts": {
     "dev": "vite",

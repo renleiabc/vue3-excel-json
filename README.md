@@ -16,7 +16,7 @@ main.ts
 
 ```javascript
 import vue3ExcelJson from 'vue3-excel-json';
-import 'vue3-excel-json/style.css';
+import 'vue3-excel-json/dist/style.css';
 createApp(App).use(vue3ExcelJson).mount('#app');
 ```
 
