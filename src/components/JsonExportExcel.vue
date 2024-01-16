@@ -23,7 +23,7 @@ const handleClick = () => {
 </script>
 <script lang="ts">
 export default {
-  name: 'JsonExportExcel'
+  name: 'JsonExportExcel' // 插件名称
 };
 </script>
 
@@ -88,4 +88,3 @@ export default {
   color: #fff;
 }
 </style>
-../assets/utils

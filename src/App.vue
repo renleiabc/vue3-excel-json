@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import typescriptLogo from './typescript.svg';
+import { JsonExportExcel } from '../lib/main';
 
-const handleChange = (data: any) => {
+/* const handleChange = (data: any) => {
   console.log('🚀 ~ handleChange ~ data:', data);
-};
+}; */
 const headerName = {
   name: 'name',
   city: 'city',
@@ -40,7 +41,7 @@ const title = 'Person information table';
         alt="TypeScript logo"
       />
     </a>
-    <excel-export-json size="large" @change="handleChange"></excel-export-json>
+    <!--  <excel-export-json size="large" @change="handleChange"></excel-export-json> -->
     <JsonExportExcel
       :json-data="jsonData"
       :fields="headerName"
